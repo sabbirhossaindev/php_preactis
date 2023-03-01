@@ -30,13 +30,13 @@
 
 	<?php 
 		#This is php variable example.
-		$tex = "this is tex variable.";
 		$myBalance = 5 +10 +10;
 		echo "my balance is total " .$myBalance . "<br>";
+		$tex = "this is text variable.";
 		echo "Hey ". $tex ."<br>"; 
 		# the sum of two variables
 		$x = 5;
-		$y = 4;
+		$y = 4.5;
 		echo $x + $y;
 	 ?>
 

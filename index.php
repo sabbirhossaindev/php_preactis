@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>My PHP Preactis</title>
+</head>
 <body>
-	<h4>PHP</h4>
-	<hr>
+	<header>
+		<h4>PHP Explore</h4>
+		<hr>
+	</header>
 	<?php
 		echo "welcome to my php code.";
 	?>
@@ -40,5 +45,15 @@
 		echo $x + $y;
 	 ?>
 
+	 <?php
+	 #PHP echo and print Statements
+
+	 #1.The PHP echo Statement
+	 echo "<h2>PHP is Fun echo first!</h2>"; //first
+	 print "<h2>PHP is Fun print than slow!</h2>"; // slow
+
+	 echo('Learn PHP <br>');
+	 print('Learn PHP');
+	 ?>
 </body>
 </html>

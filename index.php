@@ -47,13 +47,12 @@
 
 	 <?php
 	 #PHP echo and print Statements
-
 	 #1.The PHP echo Statement
 	 echo "<h2>PHP is Fun echo first!</h2>"; //first
 	 print "<h2>PHP is Fun print than slow!</h2>"; // slow
 
 	 echo('Learn PHP <br>');
-	 print('Learn PHP');
+	 print('Learn PHP <br>');
 	 ?>
 
 	 <?php 
@@ -72,7 +71,23 @@
 	8.Resource
 	*/
 	#PHP String Example
-	
+	$stringExample = "I hava 10 and 5 +10 tk"; //String
+	echo "$stringExample <br>";
+
+	#PHP Integer Example
+	$ages=20; //Integer
+	echo "$ages <br>";
+
+	#PHP Float Example
+	$flt=1.500; //Float
+	echo '$flt';
+
+	#PHP Boolean Example
+	#PHP Array Example
+	#PHP Object Example
+	#PHP NULL Example
+	#PHP Resource Example
+
 	  ?>
 </body>
 </html>

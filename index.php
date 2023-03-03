@@ -57,6 +57,7 @@
 
 	 <?php 
 	 #PHP Data Types
+	 #var_dump diya data type chack kora hoy
 	 /*
 	 Variables can store data of different types, and different data types can do different things.
 	PHP supports the following data types:
@@ -79,13 +80,22 @@
 	echo "$ages <br>";
 
 	#PHP Float Example
-	$flt=1.500; //Float
-	echo '$flt';
+	$x = 10.365;
+	var_dump($x);
 
 	#PHP Boolean Example
+	$t = true;
+	$f = false;
+	echo('<br>');
 	#PHP Array Example
+	$cars = array("Volvo","BMW","Toyota"); // array
+	echo($cars['0']);
 	#PHP Object Example
 	#PHP NULL Example
+	$n = "Hello world!";
+	$n = null;
+	echo '<br>';
+	var_dump($n);
 	#PHP Resource Example
 
 	  ?>

@@ -27,6 +27,7 @@
 		?>
 
 	<?php
+		echo "<h2>php Syntax!</h2>";
 		$color = "red";
 		echo "My car color is " . $color. "<br>";
 		$language = "php, html, css, js, node, mongoDB, react.";
@@ -35,6 +36,7 @@
 
 	<?php 
 		#This is php variable example.
+		echo "<h2>php variable example!</h2>";
 		$myBalance = 5 +10 +10;
 		echo "my balance is total " .$myBalance . "<br>";
 		$tex = "this is text variable.";
@@ -46,58 +48,75 @@
 	 ?>
 
 	 <?php
-	 #PHP echo and print Statements
-	 #1.The PHP echo Statement
-	 echo "<h2>PHP is Fun echo first!</h2>"; //first
-	 print "<h2>PHP is Fun print than slow!</h2>"; // slow
+		echo "<h2>print Statements & echo Statement example!</h2>";
+		 #PHP echo and print Statements
+		 #1.The PHP echo Statement
+		 echo "<h2>PHP is Fun echo first!</h2>"; //first
+		 print "<h2>PHP is Fun print than slow!</h2>"; // slow
 
-	 echo('Learn PHP <br>');
-	 print('Learn PHP <br>');
+		 echo('Learn PHP <br>');
+		 print('Learn PHP <br>');
 	 ?>
 
 	 <?php 
-	 #PHP Data Types
-	 #var_dump diya data type chack kora hoy
-	 /*
-	 Variables can store data of different types, and different data types can do different things.
-	PHP supports the following data types:
+		 echo "<h2>Data Type example!</h2>";
+		 #PHP Data Types
+		 #var_dump diya data type chack kora hoy
+		 /*
+		 Variables can store data of different types, and different data types can do different things.
+		PHP supports the following data types:
 
-	1.String
-	2.Integer
-	3.Float (floating point numbers - also called double)
-	4.Boolean
-	5.Array
-	6.Object
-	7.NULL
-	8.Resource
-	*/
-	#PHP String Example
-	$stringExample = "I hava 10 and 5 +10 tk"; //String
-	echo "$stringExample <br>";
+		1.String
+		2.Integer
+		3.Float (floating point numbers - also called double)
+		4.Boolean
+		5.Array
+		6.Object
+		7.NULL
+		8.Resource
+		*/
+		#PHP String Example
+		$stringExample = "I hava 10 and 5 +10 tk"; //String
+		echo "$stringExample <br>";
 
-	#PHP Integer Example
-	$ages=20; //Integer
-	echo "$ages <br>";
+		#PHP Integer Example
+		$ages=20; //Integer
+		echo "$ages <br>";
 
-	#PHP Float Example
-	$x = 10.365;
-	var_dump($x);
+		#PHP Float Example
+		$x = 10.365;
+		var_dump($x);
 
-	#PHP Boolean Example
-	$t = true;
-	$f = false;
-	echo('<br>');
-	#PHP Array Example
-	$cars = array("Volvo","BMW","Toyota"); // array
-	echo($cars['0']);
-	#PHP Object Example
-	#PHP NULL Example
-	$n = "Hello world!";
-	$n = null;
-	echo '<br>';
-	var_dump($n);
-	#PHP Resource Example
+		#PHP Boolean Example
+		$t = true;
+		$f = false;
+		echo('<br>');
+		#PHP Array Example
+		$cars = array("Volvo","BMW","Toyota"); // array
+		echo($cars['0']);
+		#PHP Object Example
+		#PHP NULL Example
+		$n = "Hello world!";
+		$n = null;
+		echo '<br>';
+		var_dump($n);
+		#PHP Resource Example
+		echo '<br>';
+	?>
 
-	  ?>
+	 <?php 
+	 	#PHP Strings Example
+	 	echo "<h2>php Strings Example</h2>";
+	 	echo strlen("Hello world!"); // outputs 12
+	 	echo '<br>';
+	 	echo str_word_count("Hello world!"); // outputs 2
+	 	echo '<br>';
+	 	echo strrev("Hello world!"); // outputs !dlrow olleH
+	 	echo '<br>';
+	 	echo strpos("Hello world!", "world"); // outputs 6
+	 	echo '<br>';
+	 	echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+	 	echo '<br>';
+	 ?>
 </body>
 </html>

@@ -199,5 +199,10 @@
 		$int_cast = (int)$x;
 		echo $int_cast;
 	 ?>
+
+	 <?php 
+	 echo('<h3>PHP Math Example</h3> <hr>');
+
+	  ?>
 </body>
 </html>

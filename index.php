@@ -120,8 +120,45 @@
 	 ?>
 
 	 <?php 
-	 	echo('<h3>PHP Numbers Example</h3> <hr>');
-	 	echo('<h4>PHP Integers</h4>');
+	 	echo('<h3>PHP Numbers Example</h3> <hr>'); 
+
+	 	echo('<h4>PHP Integers</h4>'); // purno sonka ki na ta janer jonno Integer use kore hoy.
+	 	#var_dump with is_int()
+	 	$x = 5985;
+		var_dump(is_int($x));
+		echo '<br>';
+		$y = 59.85;
+		var_dump(is_int($y));
+		echo '<br>';
+
+		#var_dump with is_integer()
+		$intg = 5000;
+		var_dump(is_integer($intg));
+		echo '<br>';
+
+		#var_dump with is_long();
+		$xyz = 4000.5;
+		var_dump(is_long($xyz));
+		echo '<br>';
+		
+		echo('<h4>PHP Floats</h4>'); // dosimik ki na cheack korer jonno;
+		# is_float();
+		$flo = 10.365;
+		var_dump(is_float($flo));
+		echo '<br>';
+
+		#is_double();
+		$dub = 1000;
+		var_dump(is_float($dub));
+
+		echo('<h4>PHP Infinity</h4>');
+		#is_finite()
+		$inf = 1.9e411;
+		var_dump($inf);
+		
+		#is_infinite()
+		$inft = 1e411;
+		var_dump($inft);
 
 	 ?>
 </body>

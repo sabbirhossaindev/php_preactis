@@ -27,7 +27,7 @@
 		?>
 
 	<?php
-		echo "<h2>php Syntax!</h2>";
+		echo "<h2>php Syntax!</h2><hr>";
 		$color = "red";
 		echo "My car color is " . $color. "<br>";
 		$language = "php, html, css, js, node, mongoDB, react.";
@@ -36,7 +36,7 @@
 
 	<?php 
 		#This is php variable example.
-		echo "<h2>php variable example!</h2>";
+		echo "<h2>php variable example!</h2><hr>";
 		$myBalance = 5 +10 +10;
 		echo "my balance is total " .$myBalance . "<br>";
 		$tex = "this is text variable.";
@@ -48,7 +48,7 @@
 	 ?>
 
 	 <?php
-		echo "<h2>print Statements & echo Statement example!</h2>";
+		echo "<h2>print Statements & echo Statement example!</h2><hr>";
 		 #PHP echo and print Statements
 		 #1.The PHP echo Statement
 		 echo "<h2>PHP is Fun echo first!</h2>"; //first
@@ -59,7 +59,7 @@
 	 ?>
 
 	 <?php 
-		 echo "<h2>Data Type example!</h2>";
+		 echo "<h2>Data Type example!</h2><hr>";
 		 #PHP Data Types
 		 #var_dump diya data type chack kora hoy
 		 /*
@@ -106,7 +106,7 @@
 
 	 <?php 
 	 	#PHP Strings Example
-	 	echo "<h2>php Strings Example</h2>";
+	 	echo "<h2>php Strings Example</h2><hr>";
 	 	echo strlen("Hello world!"); // outputs 12
 	 	echo '<br>';
 	 	echo str_word_count("Hello world!"); // outputs 2
@@ -117,6 +117,12 @@
 	 	echo '<br>';
 	 	echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
 	 	echo '<br>';
+	 ?>
+
+	 <?php 
+	 	echo('<h3>PHP Numbers Example</h3> <hr>');
+	 	echo('<h4>PHP Integers</h4>');
+
 	 ?>
 </body>
 </html>

@@ -151,15 +151,53 @@
 		$dub = 1000;
 		var_dump(is_float($dub));
 
-		echo('<h4>PHP Infinity</h4>');
+		echo('<h4>PHP Infinity</h4>'); // infinite number chack korer er jonno
 		#is_finite()
 		$inf = 1.9e411;
 		var_dump($inf);
-		
+
 		#is_infinite()
 		$inft = 1e411;
 		var_dump($inft);
 
+		echo('<h4>PHP NaN</h4>'); // not a number chack korer jonno.
+		#is_nan();
+
+		$x = sqrt(-1);
+		var_dump(is_nan($x));
+
+		echo('<h4>PHP numeric</h4>'); // number ki  na ta cheack koreta is_numeric use hoy.
+		$x = 5985;
+		var_dump(is_numeric($x)); // bool(true)
+
+		echo "<br>";
+
+		$x = "5985";
+		var_dump(is_numeric($x)); // bool(true)
+
+		echo "<br>";
+
+		$x = "59.85" + 100;
+		var_dump(is_numeric($x)); // bool(true)
+
+		echo "<br>";
+
+		$x = "Hello";
+		var_dump(is_numeric($x)); // bool(false)
+		echo "<br>";
+
+		echo('<h4>PHP Casting Strings and Floats to Integers</h4>');
+		// Cast float to int
+		$x = 23465.768;
+		$int_cast = (int)$x;
+		echo $int_cast;
+
+		echo "<br>";
+
+		// Cast string to int
+		$x = "23465.768";
+		$int_cast = (int)$x;
+		echo $int_cast;
 	 ?>
 </body>
 </html>

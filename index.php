@@ -201,8 +201,29 @@
 	 ?>
 
 	 <?php 
-	 echo('<h3>PHP Math Example</h3> <hr>');
-
+	 	echo('<h3>PHP Math Example</h3> <hr>');
+	 	#php()
+	 	echo(pi());
+	 	echo "<br>";
+	 	#min()
+	 	echo(min(0, 150, 30, 20, -8, -200));  // returns -200
+	 	echo "<br>";
+	 	#max()
+		echo(max(0, 150, 30, 20, -8, -200));  // returns 150
+		echo "<br>";
+		#abs
+		echo(abs(-6.7));  // returns 6.7
+		echo "<br>";
+		#sqrt
+		echo(sqrt(64));  // returns 8
+		echo "<br>";
+		#round
+		echo(round(0.60));  // returns 1
+		echo(round(0.49));  // returns 0
+		echo "<br>";
+		#rand
+		echo(rand(1, 6)); // random ii 
+		echo "<br>";
 	  ?>
 </body>
 </html>

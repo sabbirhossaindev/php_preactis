@@ -224,6 +224,11 @@
 		#rand
 		echo(rand(1, 6)); // random ii 
 		echo "<br>";
-	  ?>
+	?>
+
+	<?php 
+		echo('<h3>PHP Constants Example</h3> <hr>');
+
+	?>
 </body>
 </html>

@@ -279,8 +279,20 @@
 		echo('<p>PHP Comparison Operators</p>');
 		echo ('=, += , -=, *=, /=, %=');
 
-		echo('<p>PHP Comparison Operators</p>');
-		echo ('==, ===, !=, <>, !==, >, >=, <=, <=>');       
+		echo('<p>PHP Increment / Decrement Operators</p>');
+		echo ('++$x, $x++, --$x, $x--');
+
+		echo('<p>PHP Logical Operators</p>');
+		echo ('and, or, xor, &&, ||, !');
+
+		echo('<p>PHP String Operators</p>');
+		echo ('., .='); 
+
+		echo('<p>PHP Array Operators</p>');
+		echo ('+, ==, ===, !=, <>, !=='); 
+
+		echo('<p>PHP Conditional Assignment Operators</p>');
+		echo ('?:, ??');
 	 ?>
 </body>
 </html>

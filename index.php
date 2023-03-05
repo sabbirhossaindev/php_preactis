@@ -238,7 +238,7 @@
 		echo HPI;
 		echo "<br>";
 
-		echo('<h5>PHP Constant Arrays</h5><hr>');
+		echo('<h5>PHP Constant Arrays</h5>');
 
 		define("cars", [
 		  "Alfa Romeo",
@@ -256,5 +256,31 @@
 		
 		myTest();
 	?>
+
+	<?php 
+		echo('<h3>PHP Operators Example</h3> <hr>');
+		/*
+		Arithmetic operators
+		Assignment operators
+		Comparison operators
+		Increment/Decrement operators
+		Logical operators
+		String operators
+		Array operators
+		Conditional assignment operators
+		*/
+
+		echo('<p>PHP Arithmetic Operators</p>');
+		echo ('+, - , *, /, %, ** <br>');
+
+		echo('<p>PHP Assignment Operators</p>');
+		echo ('=, += , -=, *=, /=, %=');
+
+		echo('<p>PHP Comparison Operators</p>');
+		echo ('=, += , -=, *=, /=, %=');
+
+		echo('<p>PHP Comparison Operators</p>');
+		echo ('==, ===, !=, <>, !==, >, >=, <=, <=>');       
+	 ?>
 </body>
 </html>

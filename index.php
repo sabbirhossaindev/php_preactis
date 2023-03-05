@@ -227,8 +227,18 @@
 	?>
 
 	<?php 
+		#To create a constant, use the define() function.
 		echo('<h3>PHP Constants Example</h3> <hr>');
 
+		define("GREETING", "Welcome to W3Schools.com!");
+		echo GREETING;
+		echo "<br>";
+
+		define('sabbir', 'Hey, I am a Sabbir Hossain.');
+		echo sabbir;
+
+		// constant('HPI', 'I reade in diploma in 7th semester in computer subject.');
+		// echo HPI;
 	?>
 </body>
 </html>

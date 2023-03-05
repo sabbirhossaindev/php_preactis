@@ -230,15 +230,31 @@
 		#To create a constant, use the define() function.
 		echo('<h3>PHP Constants Example</h3> <hr>');
 
-		define("GREETING", "Welcome to W3Schools.com!");
-		echo GREETING;
+		define("SABBIR", "hey, i am simple."); // first a constant er 'name', tarpor value
+		echo SABBIR; // name diya call korta hoba
 		echo "<br>";
 
-		define('sabbir', 'Hey, I am a Sabbir Hossain.');
-		echo sabbir;
+		define('HPI', 'I reade in diploma in 7th semester in computer subject.');
+		echo HPI;
+		echo "<br>";
 
-		// constant('HPI', 'I reade in diploma in 7th semester in computer subject.');
-		// echo HPI;
+		echo('<h5>PHP Constant Arrays</h5><hr>');
+
+		define("cars", [
+		  "Alfa Romeo",
+		  "BMW",
+		  "Toyota"
+		]);
+		echo cars[0]; // Alfa Romeo
+		echo "<br>";
+
+		define("func", "Welcome to my php preactis");
+
+		function myTest() {
+		  echo func;
+		}
+		
+		myTest();
 	?>
 </body>
 </html>

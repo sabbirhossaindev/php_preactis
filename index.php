@@ -339,9 +339,10 @@
 	 ?>
 
 	 <?php 
-	 echo('<h3>PHP switch Statement</h3> <hr>');
-	 $favcolor = "green";
-		switch ($favcolor) {
+	 	echo('<h3>PHP switch Statement</h3> <hr>');
+
+	 	$color = "green";
+		switch ($color) {
 		  case "red":
 		    echo "Your favorite color is red!";
 		    break;
@@ -354,7 +355,44 @@
 		  default:
 		    echo "Your favorite color is neither red, blue, nor green!";
 		}
+		echo "<br>";
+	 ?>
 
+	 <?php 
+	 	echo('<h3>PHP Loops Example</h3> <hr>');
+	 	/*
+			1. while - loops through a block of code as long as the specified condition is true
+			2. do...while - loops through a block of code once, and then repeats the loop as long as the specified condition is true
+			3. for - loops through a block of code a specified number of times
+			4. foreach - loops through a block of code for each element in an array
+	 	 */
+
+		echo('<p>PHP while Loops Example</p>');
+		/*
+			Syntax
+			while (condition is true) {
+			  code to be executed;
+			}
+		 */
+		$x = 1;
+		while($x <= 10) {
+		  echo "The number is: $x <br>";
+		  $x++;
+		}
+
+		echo('<p>PHP do while Loops Example</p>');
+		/* 
+			Syntax
+			do {
+			  code to be executed;
+			} while (condition is true);
+		*/
+		$x = 1;
+		do {
+		  echo "The number is: $x <br>";
+		  $x++;
+		} while ($x <= 5);
+		
 	 ?>
 </body>
 </html>

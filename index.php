@@ -328,15 +328,15 @@
 		  echo "3";
 		}
 
-		$a = 0808;
-		$b = 0808;
-		if($a == $b){
+		echo "<br>";
+
+		$pass = '0808';
+		if($pass == '0808'){
 			echo "Your password is Right";
-		}
-		else{
+		}else{
 			echo "Your password is wrong";
 		}
+		
 	 ?>
-		}
 </body>
 </html>

@@ -277,7 +277,7 @@
 		echo ('=, += , -=, *=, /=, %=');
 
 		echo('<p>PHP Comparison Operators</p>');
-		echo ('=, += , -=, *=, /=, %=');
+		echo ('==, === , !=, <>, !==, >, <, >=, <=, <=>');
 
 		echo('<p>PHP Increment / Decrement Operators</p>');
 		echo ('++$x, $x++, --$x, $x--');
@@ -294,5 +294,49 @@
 		echo('<p>PHP Conditional Assignment Operators</p>');
 		echo ('?:, ??');
 	 ?>
+
+	 <?php 
+	 	echo('<h3>PHP if...else...elseif Statements</h3> <hr>');
+
+		$a = 50;
+		$b = 10;
+		if($a > $b){
+		  echo "Hello World";
+		}
+
+		echo "<br>";
+
+		$a = 50;
+		$b = 10;
+		if($a!=$b){
+		  echo "Hello PHP";
+		}
+
+		echo "<br>";
+
+		$a = 50;
+		$b = 10;
+		if($a == $b) {
+		  echo "1";
+		} 
+		elseif
+		 ($a > $b) {
+		  echo "2";
+		} 
+		else
+		 {
+		  echo "3";
+		}
+
+		$a = 0808;
+		$b = 0808;
+		if($a == $b){
+			echo "Your password is Right";
+		}
+		else{
+			echo "Your password is wrong";
+		}
+	 ?>
+		}
 </body>
 </html>

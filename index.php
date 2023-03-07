@@ -367,7 +367,8 @@
 			4. foreach - loops through a block of code for each element in an array
 	 	 */
 
-		echo('<p>PHP while Loops Example</p>');
+		echo('<p>PHP while Loops Example <br>
+			_______________________</p>');
 		/*
 			Syntax
 			__________
@@ -381,7 +382,8 @@
 		  $x++;
 		}
 
-		echo('<p>PHP do while Loops Example</p>');
+		echo('<p>PHP do while Loops Example <br>
+			_______________________</p>');
 		/* 
 			Syntax
 			___________
@@ -395,6 +397,10 @@
 		  $x++;
 		} while ($x <= 5);
 
+		echo "<br>";
+		echo('<p>PHP for Loop Example <br>
+			_______________________</p>');
+
 		/* 
 		Syntax
 		____________
@@ -402,6 +408,34 @@
 		  code to be executed for each iteration;
 		}		
 		*/
+
+		for ($x = 1; $x <= 10; $x++) {
+		  echo "The number is: $x <br>";
+		}
+
+		for ($x = 0; $x <= 100; $x+=10) {
+		  echo "The number is: $x <br>";
+		}
+
+
+		echo "<br>";
+		echo('<p>PHP foreach Loop Example <br>
+			_______________________</p>');
+
+		/* 
+		Syntax
+		foreach ($array as $value) {
+			code to be executed;
+		}		
+		*/
+
+		$colors = array("red", "green", "blue", "yellow");
+
+		foreach ($colors as $value) {
+		  echo "$value <br>";
+		}
+
+		
 
 	 ?>
 </body>

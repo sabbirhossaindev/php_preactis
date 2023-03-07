@@ -370,6 +370,7 @@
 		echo('<p>PHP while Loops Example</p>');
 		/*
 			Syntax
+			__________
 			while (condition is true) {
 			  code to be executed;
 			}
@@ -383,6 +384,7 @@
 		echo('<p>PHP do while Loops Example</p>');
 		/* 
 			Syntax
+			___________
 			do {
 			  code to be executed;
 			} while (condition is true);
@@ -392,7 +394,15 @@
 		  echo "The number is: $x <br>";
 		  $x++;
 		} while ($x <= 5);
-		
+
+		/* 
+		Syntax
+		____________
+		for (init counter; test counter; increment counter) {
+		  code to be executed for each iteration;
+		}		
+		*/
+
 	 ?>
 </body>
 </html>

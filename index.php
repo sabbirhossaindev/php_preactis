@@ -488,7 +488,29 @@
 		familyName("Nadim Joy", "2006", "15");
 		familyName("Muhib Nihon", "2013", "11");
 
+		echo "<br>";
+		echo('<p>PHP is a Loosely Typed Language Example <br>
+			_______________________</p>');
+			
+		function addNumbers(int $a, int $b) {
+		  return $a + $b;
+		}
+		echo addNumbers(5, 5);
+
+
+		/*
+		<?php declare(strict_types=1); // strict requirement
+
+			function addNumbers(int $a, int $b) {
+			  return $a + $b;
+			}
+			echo addNumbers(5, "5 days");
+			// since strict is enabled and "5 days" is not an integer, an error will be thrown
+		?>
+		*/
+
 	 ?>
+
 
 
 </body>

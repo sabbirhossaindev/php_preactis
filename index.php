@@ -435,6 +435,32 @@
 		  echo "$value <br>";
 		}
 
+		echo "<br>";
+		echo('<p>PHP Break and Continue <br>
+			_______________________</p>');
+
+		$x = 1;
+
+		while($x <= 10) {
+		  if ($x == 6) {
+		    break;
+		  }
+		  echo "The number is: $x <br>";
+		  $x++;
+		}
+
+		$x = 0;
+
+		while($x <= 10) {
+		  if ($x == 4) {
+		    $x++;
+		    continue;
+		  }
+		  echo "The number is: $x <br>";
+		  $x++;
+		}
+		
+
 		
 
 	 ?>

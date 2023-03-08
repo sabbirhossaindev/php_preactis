@@ -476,8 +476,20 @@
 			echo 'I have a Dell laptop.';
 		}
 		laptop();
+
+		echo "<br>";
+		echo('<p>PHP Function Arguments Example <br>
+			_______________________</p>');
+		function familyName($fname, $year, $age) {
+		  echo "$fname Refsnes. Born in $year and age is $age.<br>";
+		}
+
+		familyName("Sabbir Hossain", "2003", "19");
+		familyName("Nadim Joy", "2006", "15");
+		familyName("Muhib Nihon", "2013", "11");
+
 	 ?>
 
-	 
+
 </body>
 </html>

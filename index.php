@@ -567,6 +567,21 @@
 		foreach ($brother as $bro) {
 			echo "$bro <br>";
 		}
+
+		echo "<br>";
+		echo('<p>PHP Associative Arrays<br>
+			_______________________</p>');
+
+		$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+		echo "Peter is " . $age['Peter'] . " years old. <br>";
+
+		// or example
+
+		$ages = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+		foreach($ages as $key => $value) {
+		echo "Key=" . $key . ", Value=" . $value;
+		echo "<br>";
+		}
 	?>
 
 

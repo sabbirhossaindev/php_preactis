@@ -535,12 +535,39 @@
 		echo "5 + 10 = " . sum(5, 10) . "<br>";
 		echo "7 + 13 = " . sum(7, 13) . "<br>";
 		echo "2 + 4 = " . sum(2, 4);
+		
+	?>
+
+	<?php 
+		echo "<br>";
+		echo('<h4>PHP Arrays Example <hr></h4>');
 
 		echo "<br>";
-		echo('<p>PHP Return Type Declarations Example <br>
+		echo('<p>PHP Functions - Returning values Example <br>
 			_______________________</p>');
-	 ?>
 
+		$cars = array("Volvo", "BMW", "Toyota");
+		echo count($cars);
+
+
+		echo "<br>";
+		echo('<p>PHP Indexed Array Example For loop or foreach<br>
+			_______________________</p>');
+
+		$cars = array("Volvo", "BMW", "Toyota");
+		$arrlength = count($cars);
+		for($x = 0; $x < $arrlength; $x++) {
+			echo $cars[$x];
+			echo "<br>";
+		}
+
+		//OR 
+
+		$brother = array("Sabbir", "Nadim", "Nihon", "Abdullah", "Sujon", "Arsh", "Yesh");
+		foreach ($brother as $bro) {
+			echo "$bro <br>";
+		}
+	?>
 
 
 </body>

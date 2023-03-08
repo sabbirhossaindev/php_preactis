@@ -459,10 +459,25 @@
 		  echo "The number is: $x <br>";
 		  $x++;
 		}
-		
-
-		
-
 	 ?>
+
+	 <?php 
+	 	echo "<br>";
+		echo('<h4>PHP Functions Example <hr></h4>');
+
+		/*
+		Syntax
+		function functionName() {
+		  code to be executed;
+		}
+		*/
+
+		function laptop() {
+			echo 'I have a Dell laptop.';
+		}
+		laptop();
+	 ?>
+
+	 
 </body>
 </html>

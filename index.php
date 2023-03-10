@@ -582,6 +582,10 @@
 		echo "Key=" . $key . ", Value=" . $value;
 		echo "<br>";
 		}
+
+		echo "<br>";
+		echo('<p>PHP Multidimensional Arrays<br>
+			_______________________</p>');
 	?>
 
 

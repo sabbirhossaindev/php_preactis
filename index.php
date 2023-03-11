@@ -606,7 +606,7 @@
 		  array("Saab",5,2),
 		  array("Land Rover",17,15)
 		);
-		
+
 		for ($row = 0; $row < 4; $row++) {
 		  echo "<p><b>Row number $row</b></p>";
 		  echo "<ul>";
@@ -615,6 +615,44 @@
 		  }
 		  echo "</ul>";
 		}
+
+		echo "<br>";
+		echo('<p>PHP Sorting Arrays<br>
+			_______________________</p>');
+
+		$cars = array("Volvo", "BMW", "Toyota");
+		sort($cars);
+
+		echo "<br>";
+		echo('<p>PHP rsort Arrays<br>
+			_______________________</p>');
+
+		$cars = array("Volvo", "BMW", "Toyota");
+		rsort($cars);
+
+		echo "<br>";
+		echo('<p>PHP asort Arrays<br>
+			_______________________</p>');
+		$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+		asort($age);
+
+		echo "<br>";
+		echo('<p>PHP ksort Arrays<br>
+			_______________________</p>');
+		$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+		ksort($age);
+
+		echo "<br>";
+		echo('<p>PHP arsort Arrays<br>
+			_______________________</p>');
+		$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+		arsort($age);
+
+		echo "<br>";
+		echo('<p>PHP krsort Arrays<br>
+			_______________________</p>');
+		$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+		krsort($age);
 	?>
 
 

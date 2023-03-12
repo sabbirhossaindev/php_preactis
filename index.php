@@ -680,6 +680,24 @@
 			}
 		?>
 
+		<?php 
+			echo "<br>";
+			echo('<h4>PHP Global Variables - Superglobals Example <hr></h4>');
+			/*
+				The PHP superglobal variables are:
+				$GLOBALS
+				$_SERVER
+				$_REQUEST
+				$_POST
+				$_GET
+				$_FILES
+				$_ENV
+				$_COOKIE
+				$_SESSION
+			*/
+
+		?>
+
 
 	</body>
 </html>

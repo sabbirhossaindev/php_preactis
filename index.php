@@ -715,9 +715,9 @@
 
 		<?php
 			echo "<br>";
-			echo('<p>PHP $GLOBALS<br>
+			echo('<p>PHP $_SERVER <br>
 				_______________________</p>');
-			
+
 			echo $_SERVER['PHP_SELF'];
 			echo "<br>";
 			echo $_SERVER['SERVER_NAME'];
@@ -729,7 +729,69 @@
 			echo $_SERVER['HTTP_USER_AGENT'];
 			echo "<br>";
 			echo $_SERVER['SCRIPT_NAME'];
+			echo "<br>";
+			echo "<br>";
+			echo "<br>";
 		?>
+
+		<?php 
+			echo "<br>";
+			echo('<p>PHP $_REQUEST<br>
+				_______________________</p>');
+		 ?>
+
+		<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+			Name: <input type="text" name="first_name" placeholder="Enter your name">
+			<br>
+			Password: <input type="password" name="password" placeholder="Enter your password">
+			<br>
+			<input type="submit" style="background-color: red; color: white;">
+		</form>
+
+		<?php
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		  // collect value of input field
+		  $name = $_REQUEST['first_name'];
+		  $pass = $_REQUEST['password'];
+		  if (empty($name)) {
+		    echo "Name is empty";
+		  }
+		  elseif(empty($pass)) {
+		  	echo "password is empty";
+		  }
+		   else {
+		    echo $name;
+		    echo "<br>";
+		    echo $pass;
+
+		  }
+		}
+		?>
+
+		<?php 
+			echo "<br>";
+			echo('<p>PHP $_POST<br>
+				_______________________</p>');
+		 ?>
+
+		<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+		  Name: <input type="text" name="fname">
+		  <input type="submit">
+		</form>
+
+		<?php
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		  // collect value of input field
+		  $name = $_POST['fname'];
+		  if (empty($name)) {
+		    echo "Name is empty";
+		  } else {
+		    echo $name;
+		  }
+		}
+		?>
+
+		
 
 
 	</body>

@@ -776,6 +776,7 @@
 
 		<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 		  Name: <input type="text" name="fname">
+		  <br>
 		  <input type="submit">
 		</form>
 
@@ -789,8 +790,8 @@
 		    echo $name;
 		  }
 		}
+		echo "<br>";
 		?>
-
 		
 
 

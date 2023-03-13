@@ -694,8 +694,23 @@
 				$_ENV
 				$_COOKIE
 				$_SESSION
-			*/
+			*/ 
+		?>
 
+		<?php 
+			echo "<br>";
+			echo('<p>PHP $GLOBALS<br>
+				_______________________</p>');
+			
+			$x = 75;
+			$y = 25;
+			 
+			function addition() {
+				$GLOBALS['g'] = $GLOBALS['x'] + $GLOBALS['y'];
+			}
+			 
+			addition();
+			echo $g;
 		?>
 
 

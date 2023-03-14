@@ -794,9 +794,33 @@
 		?>
 
 		<?php 
+			echo "<h2>php Reg Exapresion</h2><hr>";
+			/* 
+			preg_match()	Returns 1 if the pattern was found in the string and 0 if not
+			preg_match_all()	Returns the number of times the pattern was found in the string, which may also be 0
+			preg_replace()	Returns a new string where matched patterns have been replaced with another string
+			*/
 			echo "<br>";
-			echo('<p>Regular Expression Functions <br>
+			echo('<p>Using preg_match() <br>
 				_______________________</p>');
+
+			$str = "Visit W3Schools";
+			$pattern = "/w3schools/i";
+			echo preg_match($pattern, $str); // Outputs 1
+
+			echo "<br>";
+			echo('<p>Using preg_match_all() <br>
+				_______________________</p>');
+			$str = "The rain in SPAIN falls mainly on the plains.";
+			$pattern = "/ain/i";
+			echo preg_match_all($pattern, $str); // Outputs 4
+
+			echo "<br>";
+			echo('<p>Using preg_match_all() <br>
+				_______________________</p>');
+			$str = "Visit Microsoft!";
+			$pattern = "/microsoft/i";
+			echo preg_replace($pattern, "W3Schools", $str); // Outputs "Visit W3Schools!"
 		?>
 		
 

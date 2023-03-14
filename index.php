@@ -792,6 +792,12 @@
 		}
 		echo "<br>";
 		?>
+
+		<?php 
+			echo "<br>";
+			echo('<p>Regular Expression Functions <br>
+				_______________________</p>');
+		?>
 		
 
 

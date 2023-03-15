@@ -818,11 +818,21 @@
 			echo "<br>";
 			echo('<p>Using preg_match_all() <br>
 				_______________________</p>');
+				
 			$str = "Visit Microsoft!";
 			$pattern = "/microsoft/i";
-			echo preg_replace($pattern, "W3Schools", $str); // Outputs "Visit W3Schools!"
+			echo preg_replace($pattern, "my php website", $str); // Visit my php website!"
 		?>
-		
+		<?php 
+			echo "<br>";
+			echo "<h4>PHP Form Handling</h4> <hr>";
+		 ?>
+			<form action="welcome.php" method="post">
+				Name: <input type="text" name="name"><br>
+				E-mail: <input type="text" name="email"><br>
+				Phone: <input type="text" name="phone"><br>
+				<input type="submit">
+			</form>
 
 
 	</body>

@@ -37,9 +37,9 @@
 
 
 <?php 
-    $pass = '0808';
+    $pas = '0808';
 
-    if($pass == '0807'){
+    if($pas == '0808'){
         echo "Unlock";
     }else{
         echo "please try again";

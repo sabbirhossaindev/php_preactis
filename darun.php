@@ -1,4 +1,5 @@
-<!--  darunit problem one solved. -->
+<!--simple upey a 3 ti sonka modda brigest number ber korsr number -->
+
 <?php
     $numberOne = 5;
     $numberTwo = 10;
@@ -13,6 +14,27 @@
     }
     echo '<br>';
 ?>
+
+<!-- hard upey a 3 ti sonka modda brigest number ber korsr number -->
+
+<?php 
+    echo '<br>';
+
+    $a = 30;
+    $b = 20;
+    $c = 10;
+
+    if($a > $b && $a > $c){
+        echo 'A is a larger number';
+    }
+    elseif ($b > $a && $b > $c) {
+        echo 'B is a larger number';
+    }
+    else{
+        echo 'C is a larger number';
+    }
+?>
+
 
 <?php 
     $pass = '0808';

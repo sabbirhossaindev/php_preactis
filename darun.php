@@ -18,8 +18,6 @@
 <!-- hard upey a 3 ti sonka modda brigest number ber korsr number -->
 
 <?php 
-    echo '<br>';
-
     $a = 30;
     $b = 20;
     $c = 10;
@@ -33,6 +31,7 @@
     else{
         echo 'C is a larger number';
     }
+    echo '<br>';
 ?>
 
 

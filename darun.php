@@ -43,4 +43,36 @@
     }else{
         echo "please try again";
     }
+    echo '<br>';
+?>
+
+ <!-- GPA Marks chart -->
+ 
+<?php 
+    $markes = 820;
+
+    if($markes >= 80 && $markes <= 100) {
+        echo 'WOW You Got A+';
+    }
+    elseif($markes >= 70 && $markes <= 79) {
+        echo 'WOW You Got A';
+    }
+    elseif($markes >= 60 && $markes <= 69) {
+        echo 'WOW You Got A-';
+    }
+    elseif($markes >= 50 && $markes <= 59) {
+        echo 'WOW You Got B';
+    }
+    elseif($markes >= 40 && $markes <= 49) {
+        echo 'WOW You Got C';
+    }
+    elseif($markes >= 33 && $markes <= 39) {
+        echo 'WOW You Got D';
+    }
+    elseif($markes >= 0 && $markes <= 32) {
+        echo 'WOW You Got F Alhamdullah';
+    }
+    else{
+        echo 'Invalide Number';
+    }
 ?>

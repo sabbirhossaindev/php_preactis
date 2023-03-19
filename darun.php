@@ -11,4 +11,15 @@
     } else {
         echo 'Number Three is a Larger number';
     }
+    echo '<br>';
+?>
+
+<?php 
+    $pass = '0808';
+
+    if($pass == '0807'){
+        echo "Unlock";
+    }else{
+        echo "please try again";
+    }
 ?>

@@ -49,7 +49,7 @@
  <!-- GPA Marks chart -->
  
 <?php 
-    $markes = 820;
+    $markes = 82;
 
     if($markes >= 80 && $markes <= 100) {
         echo 'WOW You Got A+';

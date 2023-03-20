@@ -124,8 +124,17 @@
             echo $i.'<br>';
         }
     }
-
 ?>
+
+<!-- 1 to 100 even number print korer program -->
+
+<?php 
+    for ($i=0; $i <= 100; $i++) { 
+        if($i%2 == 0){
+            echo $i.'<br>';
+        }
+    }
+?> 
 
 <?php
     echo '<br>'; 

@@ -76,3 +76,34 @@
         echo 'Invalide Number';
     }
 ?>
+
+<?php 
+    echo '<br>';
+    $markes = 40;
+
+    switch ($markes) {
+        case ($markes >= 80 && $markes <= 100):
+            echo 'WOW You Got A+';
+            break;
+        case ($markes >= 70 && $markes <= 79):
+            echo 'WOW You Got A';
+            break;
+        case ($markes >= 60 && $markes <= 69):
+            echo 'WOW You Got A-';
+            break;
+        case ($markes >= 50 && $markes <= 59):
+            echo 'WOW You Got B';
+            break;
+        case ($markes >= 40 && $markes <= 49):
+            echo 'WOW You Got C';
+            break;
+        case ($markes >= 33 && $markes <= 39):
+            echo 'WOW You Got D';
+            break;
+        case ($markes >= 0 && $markes <= 32):
+            echo 'WOW You Got F';
+            break;
+        default:
+            echo "Invalid Number";
+    }
+?>

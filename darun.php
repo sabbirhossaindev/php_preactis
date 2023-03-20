@@ -139,5 +139,7 @@
 <?php
     echo '<br>'; 
     $t=time();
-    echo(date("Y-m-d",$t));
+    echo date("l", $t);
+    echo '<br>';
+    echo(date("M d, Y",$t));
 ?>

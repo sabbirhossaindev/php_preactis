@@ -136,12 +136,14 @@
     }
 ?> 
 
+<!-- array of php -->
 <?php
-    $i = 1;
-    while($i<=100) {
-        echo $i . "<br>";
-        $i++;   
+    $citys = ['Dhaka', 'Rangpur', 'Khulna', 'Gazipur'];
+    echo '<ul>';
+    foreach ($citys as $city) {
+        echo '<li>$city</li>';
     }
+    echo '</ul>';
 ?>
 
 

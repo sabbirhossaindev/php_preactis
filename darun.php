@@ -139,11 +139,11 @@
 <!-- array of php -->
 <?php
     $citys = ['Dhaka', 'Rangpur', 'Khulna', 'Gazipur'];
-    echo '<ul>';
+    // echo '<ul>';
     foreach ($citys as $city) {
-        echo '<li>$city</li>';
+        echo $city.'<br>';
     }
-    echo '</ul>';
+    // echo '</ul>';
 ?>
 
 

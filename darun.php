@@ -150,7 +150,7 @@
 <?php
     echo '<br>'; 
     $t=time();
-    echo date('h:m A');
+    echo date('G:i A');
     echo '<br>';
     echo date("l", $t);
     echo '<br>';

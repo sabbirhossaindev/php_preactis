@@ -7,8 +7,11 @@
     <title>Form php Example</title>
 </head>
 <body>
-    <form action="">
-        
+    <form action="" method="GET">
+        Name: <input type="text" name="name"><br>
+        E-mail: <input type="text" name="email"><br>
+        Password: <input type="password" name="password"><br>
+        <input type="submit" name="btn">
     </form>
 </body>
 </html>

@@ -1,3 +1,11 @@
+<?php
+    if(isset($_POST['btn'])){
+        $username = $_POST['name'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +15,16 @@
     <title>Form php Example</title>
 </head>
 <body>
-    <form action="" method="GET">
+    <h3>User Name: <?php if(isset($username)){
+        echo $username;
+    } ?></h3>
+    <h3>E-mail: <?php if(isset($email)){
+        echo $email;
+    } ?></h3>
+    <h3>Password: <?php if(isset($password)){
+        echo $password;
+    } ?></h3>
+    <form action="" method="POST">
         Name: <input type="text" name="name"><br>
         E-mail: <input type="text" name="email"><br>
         Password: <input type="password" name="password"><br>

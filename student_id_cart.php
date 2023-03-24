@@ -10,7 +10,7 @@
 <body>
     <section class="student-id-section">
         <h3 class="discription">Create Your Virtual ID Card</h3>
-        <form action="">
+        <form action="id.php" method="post">
             Name*   <input type="text" name="name" required placeholder="Name"><br> <br>
             E-mail*  <input type="text" name="email" required placeholder="email@gmail.com"><br> <br>
             Phone*   <input type="text" name="phone" required placeholder="Phone"><br> <br>

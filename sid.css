@@ -3,4 +3,16 @@
 }
 .sid-h2{
     color: white;
+    padding: 8px;
+    font-family: sans-serif;
+}
+.main-div{
+    display: flex;
+}
+.doctor{
+    height: 100px;
+    width: 140px;
+}
+.list{
+    display: flex;
 }

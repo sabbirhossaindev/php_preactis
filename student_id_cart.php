@@ -10,15 +10,15 @@
 <body>
     <section class="student-id-section">
         <h3 class="discription">Create Your Virtual ID Card</h3>
-        <form action="id.php" method="post">
+        <form action="sid.php" method="post">
             Name <i class="start">*</i>   <input type="text" name="name" required placeholder="Name"><br> <br>
-            E-mail<i class="start">*</i>  <input type="text" name="email" required placeholder="email@gmail.com"><br> <br>
-            Phone<i class="start">*</i>   <input type="text" name="phone" required placeholder="Phone"><br> <br>
-            Course<i class="start">*</i>  <input type="text" name="course" required placeholder="Course"><br> <br> 
-            Batch No<i class="start">*</i>  <input type="text" name="batch" required placeholder="Batch"><br> <br>
+            E-mail<i class="start">*</i>  <input type="text" name="stn-email" required placeholder="email@gmail.com"><br> <br>
+            Phone<i class="start">*</i>   <input type="text" name="stn-phone" required placeholder="Phone"><br> <br>
+            Course<i class="start">*</i>  <input type="text" name="stn-course" required placeholder="Course"><br> <br> 
+            Batch No<i class="start">*</i>  <input type="text" name="stn-batch" required placeholder="Batch"><br> <br>
             <!-- submit btn -->
             <div class="btn-div">
-                <button class="btn" type="submit">Genarate ID</button>
+                <button name="genarate-btn" class="btn" type="submit">Genarate ID</button>
             </div>
         </form>
     </section>

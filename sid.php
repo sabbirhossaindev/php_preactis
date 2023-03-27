@@ -26,12 +26,23 @@
             <div class="main-div">
                 <img class="doctor" src="img/doctor-logo.png" alt="abdullah-pic">
                 <div class="list">
-                    <h4><?php if (isset($name)) {
-                        echo $name;} ?></h4>
-                    <h4>Course- $course</h4>
-                    <li>Phone- $phone</li>
-                    <li>Email- $email</li>
-                    <li>Batch No- $batch</li>
+                    <div class="list-first">
+                        <b><?php if (isset($name)) {
+                            echo $name;
+                            echo '<br>';} ?></b>
+                        <br>
+                        <b>Course- <?php if (isset($course)) {
+                            echo $course;echo '<br>';} ?></b>
+                    
+                    </div>
+                    <div class="list-div">
+                        <b>Phone- <?php if (isset($phone)) {
+                        echo $phone;echo '<br>';} ?></b>
+                        <b>Email- <?php if (isset($email)) {
+                        echo $email;echo '<br>';} ?></b>
+                        <b>Batch No- <?php if (isset($batch)) {
+                        echo $batch;echo '<br>';} ?></b>
+                    </div>
                 </div>
             </div>
 

@@ -3,6 +3,7 @@
         $img_name = $_FILES['upload_img']['name'];
         $img_name = $_FILES['upload_img']['tmp_name'];
         move_uploaded_file($tmp_name, "upload/".$img_name);
+        //print_r($_FILES['upload_img']); // full design  array retuen kora.
     }
 ?>
 
@@ -16,7 +17,7 @@
     <title>Display Image</title>
 </head>
 <body>
-    <img src="img/<?php if(isset($img_name)){echo $img_name;} ?>" alt="$img_name">
+    <img src="upload/<?php if(isset($img_name)){echo $img_name;} ?>" alt="$img_name">
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, magnam.</p>
 </body>
 </html>

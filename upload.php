@@ -17,5 +17,6 @@
 </head>
 <body>
     <img src="img/<?php if(isset($img_name)){echo $img_name;} ?>" alt="$img_name">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, magnam.</p>
 </body>
 </html>
